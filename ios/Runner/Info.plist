@@ -50,5 +50,13 @@
 	<false/>
 	<key>CADisableMinimumFrameDurationOnPhone</key>
 	<true/>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Looking for local tcp Bonjour service</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Permiso necesario para escanear el código QR.</string>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>mqtt.tcp</string>
+	</array>
 </dict>
 </plist>

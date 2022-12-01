@@ -8,16 +8,40 @@ environment:
   flutter: 3.3.8
 
 dependencies:
+  auto_route: ^5.0.4
   bloc: ^8.1.0
+  chat_api_remote:
+    path: packages/chat_api_remote
+  chat_repository:
+    path: packages/chat_repository
+  equatable: ^2.0.5
+  flex_color_scheme: ^6.1.1
   flutter:
     sdk: flutter
   flutter_bloc: ^8.1.1
+  flutter_chat_types: ^3.6.0
+  flutter_chat_ui: ^1.6.6
+  flutter_dotenv: ^5.0.2
   flutter_localizations:
     sdk: flutter
+  flutter_slidable: ^2.0.0
+  google_fonts: ^3.0.1
   intl: ^0.17.0
+  intl_phone_field: ^3.1.0
+  mobile_scanner: ^2.0.0
+  pinput: ^2.2.0
+  qr_flutter: ^4.0.0
+  user_api_local:
+    path: packages/user_api_local
+  user_api_remote:
+    path: packages/user_api_remote
+  user_repository:
+    path: packages/user_repository
 
 dev_dependencies:
+  auto_route_generator: ^5.0.2
   bloc_test: ^9.1.0
+  build_runner: ^2.3.0
   flutter_test:
     sdk: flutter
   mocktail: ^0.3.0
@@ -26,3 +50,5 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   generate: true
+  assets:
+  - .env
