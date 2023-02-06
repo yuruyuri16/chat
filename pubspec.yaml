@@ -9,7 +9,7 @@ environment:
 
 dependencies:
   auto_route: ^5.0.4
-  bloc: ^8.1.0
+  bloc: ^8.1.1
   chat_api_remote:
     path: packages/chat_api_remote
   chat_repository:
